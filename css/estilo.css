@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #37492f, #7ea06e);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Itim';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #deddd9;
+}
+
+.conteudo-sessao-um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-sessao-um-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-sessao-um-escrito-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.conteudo-sessao-um-escrito-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 24px;
+    color: 415338;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-um-img{
+    height: 360px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.conteudo-sessao-dois-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-dois-escrito-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-dois-escrito-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 24px;
+    color: 415338;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.endo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.conteudo-sessao-tres-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-tres-escrito-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-tres-escrito-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 24px;
+    color: 415338;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-quatro-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-quatro-escrito-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.conteudo-sessao-quatro-escrito-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 24px;
+    color: 415338;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.passo-a-passo{ 
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    background-color: #deddd9;
+
+}
+
+.passo-a-passo-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-um{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 25px;
+    color: #a9bba3;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-um-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 15px;
+    color: 415338; 
+    margin-bottom: 20px;  
+}
+
+.passo-a-passo-dois{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 25px;
+    color: #a9bba3;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-dois-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 15px;
+    color: 415338;
+    margin-bottom: 20px;   
+}
+
+.passo-a-passo-tres{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 25px;
+    color: #a9bba3;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-tres-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 15px;
+    color: 415338; 
+    margin-bottom: 20px;  
+}
+
+.passo-a-passo-quatro{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 25px;
+    color: #a9bba3;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.passo-a-passo-quatro-info{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 15px;
+    color: 415338;   
+    margin-bottom: 20px;
+}
+
+.evidencias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.evidencias-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.evidencias-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    text-align: left;
+}
+
+.evidencias-texto{
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 24px;
+    color: 415338;  
+}
+
+footer{
+    background-color: #37492f;
+}
+
+.final-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.evidencias-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    text-align: left;
+}
+
+.final-referencias{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 24px;
+    font-size: 15px;
+    color: #deddd9;
+}
+
+.autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    font-size: 15px;
+    color: #deddd9;
+}
+   
