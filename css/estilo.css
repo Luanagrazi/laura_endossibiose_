@@ -18,19 +18,17 @@ a:link {
    
   }
   
-  /*Link já visitado*/
   a:visited {
     color: rgb(39, 58, 23);
     text-decoration: none;
   }
   
-  /*Quando o mouse passa por cima*/
+ 
   a:hover {
     color: rgb(41, 83, 48);
     text-decoration: none;
   }
   
-  /*Link ativo/selecionado*/
   a:active {
     color: rgb(255, 255, 3);
     text-decoration: none;
