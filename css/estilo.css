@@ -368,3 +368,17 @@ footer{
     font-size: 15px;
     color: #deddd9;
 }
+
+@media only screen and (max-width: 800px){
+    .conteudo, .conteudo-sessao-dois, .conteudo-sessao-dois-escrito, .conteudo-sessao-dois-escrito-info,
+    .conteudo-sessao-dois-escrito-titulo,.conteudo-sessao-quatro-escrito,.conteudo-sessao-quatro-escrito-info,
+    .conteudo-sessao-quatro-escrito-titulo,.conteudo-sessao-tres, .conteudo-sessao-tres-escrito, .conteudo-sessao-tres-escrito-info,
+    .conteudo-sessao-tres-escrito-titulo,.conteudo-sessao-um, .conteudo-sessao-um-escrito, .conteudo-sessao-um-escrito-info,
+    .conteudo-sessao-um-escrito-titulo, .conteudo-sessao-um-img, .evidencias, .evidencias-escrito, .evidencias-texto, .evidencias-titulo,
+    .passo-a-passo, .passo-a-passo-dois, .passo-a-passo-dois-info, .passo-a-passo-escrito, .passo-a-passo-quatro, .passo-a-passo-quatro-info
+    .passo-a-passo-titulo,.passo-a-passo-tres, .passo-a-passo-tres-info,.passo-a-passo-um,.passo-a-passo-um-info, .video{
+        margin-top: 50px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
