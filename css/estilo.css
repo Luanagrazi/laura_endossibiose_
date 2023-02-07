@@ -8,41 +8,31 @@
     text-decoration: none;
 }
 
-table{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #415338 16.62%, #a9bba3 85.61% );
+    background-image: linear-gradient(to bottom, #37492f, #7ea06e);
 }
 
-main{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 20px 0;
-}
-
-.conteudo-sessao-um{
-    margin-bottom: 200px;
-}
-
-.conteudo-sessao-dois{
-    margin-bottom: 200px;
-}
-
-.conteudo-sessao-tres{
-    background-color: #a9bba3;
-    margin-bottom: 200px;
-}
+a:link {
+    color: rgb(127, 154, 129);
+   
+  }
+  
+  a:visited {
+    color: rgb(39, 58, 23);
+    text-decoration: none;
+  }
+  
+ 
+  a:hover {
+    color: rgb(41, 83, 48);
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 3);
+    text-decoration: none;
+  }
 
 .cabecalho {
     display: flex;
@@ -106,7 +96,7 @@ header{
 }
 
 .conteudo-sessao-um-img{
-    height: 360x;
+    height: 360px;
     margin-right: 50px;
     margin-top: 25px;
 }
@@ -140,12 +130,11 @@ header{
     margin-right: 50px;
 }
 
-.video{
-    background-color: #a9bba3;
-    padding: 20px;
-    margin-left: 250px;
-    margin-right: 250px;
-    font-family: 'Itim';
+.endo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 
 .conteudo-sessao-tres-escrito{
@@ -222,9 +211,9 @@ header{
     align-items: left;
     justify-content: space-around;
     gap: 24px;
-    /*margin-top: 70px;
+    margin-top: 70px;
     margin-left: 50px;
-    margin-right: 50px;*/
+    margin-right: 50px;
 }
 
 .passo-a-passo-titulo{
@@ -233,8 +222,8 @@ header{
     font-size: 40px;
     color: #deddd9;
     text-align: left;
-   /* margin-left: 60px;
-    margin-right: 50px;*/
+    margin-left: 60px;
+    margin-right: 50px;
 }
 
 .passo-a-passo-um{
@@ -242,8 +231,8 @@ header{
     font-weight: 400;
     font-size: 25px;
     color: #a9bba3;
-   /* margin-left: 15px;
-    margin-right: 50px;*/
+    margin-left: 15px;
+    margin-right: 50px;
 }
 
 .passo-a-passo-um-info{
@@ -251,7 +240,7 @@ header{
     font-weight: 400;
     font-size: 15px;
     color: 415338; 
-    /*margin-bottom: 20px;  */
+    margin-bottom: 20px;  
 }
 
 .passo-a-passo-dois{
@@ -259,8 +248,8 @@ header{
     font-weight: 400;
     font-size: 25px;
     color: #a9bba3;
-    /*margin-left: 15px;
-    margin-right: 50px;*/
+    margin-left: 15px;
+    margin-right: 50px;
 }
 
 .passo-a-passo-dois-info{
@@ -268,7 +257,7 @@ header{
     font-weight: 400;
     font-size: 15px;
     color: 415338;
-   /* margin-bottom: 20px;   */
+    margin-bottom: 20px;   
 }
 
 .passo-a-passo-tres{
@@ -276,8 +265,8 @@ header{
     font-weight: 400;
     font-size: 25px;
     color: #a9bba3;
-  /*  margin-left: 15px;
-    margin-right: 50px;*/
+    margin-left: 15px;
+    margin-right: 50px;
 }
 
 .passo-a-passo-tres-info{
@@ -285,7 +274,7 @@ header{
     font-weight: 400;
     font-size: 15px;
     color: 415338; 
-  /*  margin-bottom: 20px;  */
+    margin-bottom: 20px;  
 }
 
 .passo-a-passo-quatro{
@@ -293,8 +282,8 @@ header{
     font-weight: 400;
     font-size: 25px;
     color: #a9bba3;
-  /*  margin-left: 15px;
-    margin-right: 50px;*/
+    margin-left: 15px;
+    margin-right: 50px;
 }
 
 .passo-a-passo-quatro-info{
@@ -302,7 +291,7 @@ header{
     font-weight: 400;
     font-size: 15px;
     color: 415338;   
-    /*margin-bottom: 20px;*/
+    margin-bottom: 20px;
 }
 
 .evidencias{
@@ -310,6 +299,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 150px;
 }
 
 .evidencias-escrito{
@@ -351,6 +341,14 @@ footer{
     margin-right: 50px;
 }
 
+.evidencias-titulo{
+    font-family: 'Secular One';
+    font-weight: 400;
+    font-size: 40px;
+    color: #deddd9;
+    text-align: left;
+}
+
 .final-referencias{
     display: flex;
     flex-direction: column;
@@ -369,12 +367,4 @@ footer{
     gap: 24px;
     font-size: 15px;
     color: #deddd9;
-}
-
-@media only screen and (max-width: 800px){
-    main{
-        margin-top: 50px;
-        margin-left: 75px;
-        margin-right: 75px;
-    }
 }
