@@ -1,8 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
 
 
 * {
@@ -11,9 +9,10 @@
 
     padding: 0;
 
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 
     text-decoration: none;
+    max-width: 100%;
 
 }
 
@@ -36,7 +35,7 @@ body {
     font-size: 100%;
 
     background: linear-gradient(68.15deg, #415338 16.62%, #a9bba3 85.61% );
-
+    max-width: 100%;
 }
 
 
@@ -172,7 +171,7 @@ header{
 
 
 h1{
-
+    max-width: 100%;
     font-family: 'Secular One';
 
     font-weight: 400;
@@ -243,303 +242,7 @@ h2{
 
 
 
-    .passo-a-passo-titulo{
-
-
-
-        font-family: 'Secular One';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 40px;
-
-
-
-        color: #deddd9;
-
-
-
-        text-align: center;
-
-
-
-       /* margin-left: 60px;
-
-        margin-right: 50px;*/
-
-
-
-    }
-
-
-
     
-
-
-
-    .passo-a-passo-um{
-
-
-
-        font-family: 'Secular One';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 25px;
-
-
-
-        color: #a9bba3;
-
-
-
-       /* margin-left: 15px;
-
-        margin-right: 50px;*/
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-um-info{
-
-
-
-        font-family: 'Itim';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 15px;
-
-
-
-        color: 415338; 
-
-
-
-        /*margin-bottom: 20px;  */
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-dois{
-
-
-
-        font-family: 'Secular One';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 25px;
-
-
-
-        color: #a9bba3;
-
-
-
-        /*margin-left: 15px;
-
-        margin-right: 50px;*/
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-dois-info{
-
-
-
-        font-family: 'Itim';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 15px;
-
-
-
-        color: 415338;
-
-
-
-       /* margin-bottom: 20px;   */
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-tres{
-
-
-
-        font-family: 'Secular One';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 25px;
-
-
-
-        color: #a9bba3;
-
-
-
-      /*  margin-left: 15px;
-
-        margin-right: 50px;*/
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-tres-info{
-
-
-
-        font-family: 'Itim';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 15px;
-
-
-
-        color: 415338; 
-
-
-
-      /*  margin-bottom: 20px;  */
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-quatro{
-
-
-
-        font-family: 'Secular One';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 25px;
-
-
-
-        color: #a9bba3;
-
-
-
-      /*  margin-left: 15px;
-
-        margin-right: 50px;*/
-
-
-
-    }
-
-
-
-    
-
-
-
-    .passo-a-passo-quatro-info{
-
-
-
-        font-family: 'Itim';
-
-
-
-        font-weight: 400;
-
-
-
-        font-size: 15px;
-
-
-
-        color: 415338;   
-
-
-
-        /*margin-bottom: 20px;*/
-
-
-
-    }
-
-
 
 .conteudo-sessao-um-img{
 
@@ -736,15 +439,22 @@ footer{
 
 @media only screen and (max-width:768px) {
 
+    body{
+        max-width: 100%;
+    }
 
+    h1, h2{
+        justify-content: center;
+    }
 
     .conteudo,.conteudo-dois,.conteudo-tres,.conteudo-um,.sessao-um {
 
         margin-top: 50px;
+        
 
-        margin-left: 75px;
+        margin-left: 20px;
 
-        margin-right: 75px;
+        /*margin-right: 75px;*/
 
     }
 
@@ -768,18 +478,18 @@ footer{
 
         margin-left: -10%;
 
-        margin-right: 10%;
+        /*margin-right: 10%;*/
 
     }
 
-
+    
 
 }
 
 
 
 table {
-
+    
     border-collapse: collapse;
 
 }
@@ -849,43 +559,8 @@ left:80px;
 top: 80px;
 
 }
-    
-.embedd-container iframe {
 
-position: absolute;
-
-left: 16;
-
-width: 100%;
-
-height: 30px;
-
-margin-bottom: 30px;
-
- padding:50px;
-
+footer{
+    background-color: #232e1e;
 }
-
-#baixo{
-    float: left;
-    margin: 10px;
-    display: flex;
-   
-    justify-content: space-between;
-   
-}
-
-
-
     
-
-
-
-        
-    
-    
-
-
-        
-
-
