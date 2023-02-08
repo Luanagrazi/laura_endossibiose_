@@ -850,6 +850,30 @@ top: 80px;
 
 }
     
+.embedd-container iframe {
+
+position: absolute;
+
+left: 16;
+
+width: 100%;
+
+height: 30px;
+
+margin-bottom: 30px;
+
+ padding:50px;
+
+}
+
+#baixo{
+    float: left;
+    margin: 10px;
+    display: flex;
+   
+    justify-content: space-between;
+   
+}
 
 
 
